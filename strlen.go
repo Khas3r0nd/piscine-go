@@ -1,12 +1,10 @@
-package main
-
-import "fmt"
+package piscine
 
 func StrLen(s string) int {
 	aString := []rune(s)
-	return len(aString)
-}
-
-func main() {
-	fmt.Println(StrLen("Hello world!"))
+	counter := 0
+	for range aString {
+		counter += 1
+	}
+	return counter
 }

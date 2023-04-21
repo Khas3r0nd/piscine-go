@@ -1,12 +1,6 @@
-package main
-
-import "fmt"
+package piscine
 
 func FirstRune(s string) rune {
 	aString := []rune(s)
 	return aString[0]
-}
-
-func main() {
-	fmt.Printf("%c", FirstRune("Hello"))
 }
